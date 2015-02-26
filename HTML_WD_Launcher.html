@@ -1,0 +1,19 @@
+<!DOCTYPE html> <html>
+<body> <script>
+// This Code will merge in the needed parameters and then Launch WD
+// C. Delfs Charles.delfs@delfsengineering.ca
+//
+function Launch() {
+    Param1 = 1234;
+    Param2 = 4321;
+    targetServer = "http://67.231.30.208/fmi/webd";
+    databaseName = "FMServer_Sample";
+    URL = targetServer + "?Param1=" + Param1 + "&Param2=" + Param2 + "#" + databaseName
+    myWindow = window.open(URL, "MyWDSession", "width=1000, height=900");
+} </script>
+    <p>This will open WD in a new window but the same windows each subsequent call</p >
+
+<p> Click the button to open a new browser window. </p>
+    <button onclick="Launch()">Open in PRM</button>
+</body>
+</html>
