@@ -1,0 +1,36 @@
+"data:text/html," & "<html>
+<head>
+	<style>
+		body {
+			background-color: #FFFFFF;
+		}
+		input {
+			font: small-caption;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+</p>
+
+<p>
+Password:<br />
+<form onsubmit=\"return submitForm()\">
+<input id=\"pass\" type=\"password\" /><br />
+<input type=\"submit\" value=\"OK\" />
+</form>
+</p>
+
+<p>
+<script>
+function submitForm() {
+password = document.getElementById(\"pass\").value;
+theURL = \"fmp://$/" & Get ( FileName ) & "\?script=Password_Callback&param=\" + password;
+window.location = theURL ;
+document.getElementById(\"pass\").value = \"\";
+return false;
+} </script>
+</p>
+
+<p>
+</body></html>"
