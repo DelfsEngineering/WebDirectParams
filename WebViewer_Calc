@@ -1,3 +1,5 @@
+// This is the calc for my first attempt, its creative but need
+// a way to read the daya from the JS generated text from the web viewer
 "data:text/html," & "<html>
 <head>
 	<style>
