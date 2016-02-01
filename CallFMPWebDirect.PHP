@@ -26,8 +26,8 @@ Filemaker must check on launch:
 - If recall is called without a session launch preceeding, returns 'no session'
 
 sample test URL
-http://67.231.30.208/MiscTest/CallFMPWebDirect.php?mode=launch&param1=shit&param2=happens
-http://67.231.30.208/MiscTest/CallFMPWebDirect.php?mode=recall&format=xml
+http://167.231.30.208/MiscTest/CallFMPWebDirect.php?mode=launch&param1=shit&param2=happens
+http://167.231.30.208/MiscTest/CallFMPWebDirect.php?mode=recall&format=xml
 
 ********************************************************/
 // unconnect for dev, comment for production debugging
@@ -37,7 +37,7 @@ ini_set('display_errors', 1);
 //********************************************************
 //     CONFIGURATION
 // default parameters, if not passed
-$fmurl = '67.231.30.208'; // enter the address of the server hosting webdirect
+$fmurl = '167.231.30.208'; // enter the address of the server hosting webdirect
 $fmfile = 'FMServer_Sample'; // enter the default file to open	
 
 //********************************************************
