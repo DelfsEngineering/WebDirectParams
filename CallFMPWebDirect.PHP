@@ -37,7 +37,7 @@ ini_set('display_errors', 1);
 //********************************************************
 //     CONFIGURATION
 // default parameters, if not passed
-$fmurl = '167.231.30.208'; // enter the address of the server hosting webdirect
+$fmurl = '167.100.30.208'; // enter the address of the server hosting webdirect
 $fmfile = 'FMServer_Sample'; // enter the default file to open	
 
 //********************************************************
