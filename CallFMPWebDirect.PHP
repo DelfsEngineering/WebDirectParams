@@ -26,8 +26,8 @@ Filemaker must check on launch:
 - If recall is called without a session launch preceeding, returns 'no session'
 
 sample test URL
-http://167.231.30.208/MiscTest/CallFMPWebDirect.php?mode=launch&param1=shit&param2=happens
-http://167.231.30.208/MiscTest/CallFMPWebDirect.php?mode=recall&format=xml
+http://167.100.30.208/MiscTest/CallFMPWebDirect.php?mode=launch&param1=shit&param2=happens
+http://167.100.30.208/MiscTest/CallFMPWebDirect.php?mode=recall&format=xml
 
 ********************************************************/
 // unconnect for dev, comment for production debugging
